@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="multiplier" type="id" />
+    <item name="total" type="id" />
+    <item name="costCrew" type="id" />
+    <item name="totalCrew" type="id" />
+    <item name="totalShips" type="id" />
+    <item name="totalRum" type="id" />
+    <item name="totalweightRum" type="id" />
+</resources>

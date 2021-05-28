@@ -27,8 +27,8 @@
         android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version" />
     <activity android:name="com.example.betterapp.mainScreen"
-        android:label="coastalITapp">
-
+        android:label="PIRATE TYCOON"
+        android:configChanges="orientation|keyboardHidden|screenSize">
     </activity>
 
     <activity android:name="com.example.betterapp.mainLoop"

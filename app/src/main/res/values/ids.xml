@@ -7,4 +7,8 @@
     <item name="totalShips" type="id" />
     <item name="totalRum" type="id" />
     <item name="totalweightRum" type="id" />
+    <item name="costRum" type="id" />
+    <item name="weightRum" type="id" />
+    <item name="profitRum" type="id" />
+    <item name="totalprofitRum" type="id" />
 </resources>

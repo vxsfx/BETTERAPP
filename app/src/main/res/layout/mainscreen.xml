@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+
+    >
 
 
         <TextView
@@ -165,6 +167,8 @@
             app:layout_constraintTop_toTopOf="@id/totalShips" />
 
         <TextView
+            android:id="@id/costRum"
+
             android:text="cost"
 
             android:layout_width="100dp"
@@ -177,6 +181,8 @@
             app:layout_constraintBottom_toBottomOf="@id/buyrum" />
 
         <TextView
+            android:id="@id/weightRum"
+
             android:text="weight"
 
             android:layout_width="100dp"
@@ -187,6 +193,36 @@
 
             app:layout_constraintStart_toStartOf="@id/buyrum"
             app:layout_constraintBottom_toBottomOf="@id/buyrum" />
+
+        <TextView
+            android:id="@id/profitRum"
+
+            android:text="£0"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+
+            app:layout_constraintStart_toStartOf="@id/buyrum"
+            app:layout_constraintTop_toBottomOf="@id/buyrum" />
+
+        <TextView
+            android:id="@id/totalprofitRum"
+
+            android:text="£0"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintStart_toStartOf="@id/buyrum"
+            app:layout_constraintTop_toBottomOf="@id/buyrum" />
+
+
 
         <TextView
             android:id="@id/totalweightRum"
